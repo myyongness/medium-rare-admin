@@ -1,0 +1,81 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.8"
+    }
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": true,
+    "window": true,
+    "process": true,
+    "SVG": true
+  },
+  "rules": {
+    "react/static-property-placement": 0,
+    "no-console": ["error", {
+      "allow": ["warn", "info", "error"]
+    }],
+    "no-script-url": 0,
+    "max-len": 0,
+    "padded-blocks": 0,
+    "react/no-danger": 0,
+    "consistent-return": 0,
+    "guard-for-in": 0,
+    "no-shadow": 0,
+    "no-restricted-syntax": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-array-index-key": 0,
+    "react/destructuring-assignment": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-multi-comp": 0,
+    "no-underscore-dangle": 0,
+    "no-param-reassign": 0,
+    "prefer-destructuring": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "default-case": 0,
+    "react/forbid-prop-types": 0,
+    "no-warning-comments": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/label-uses-for": 0,
+    "jsx-a11y/mouse-events-map-to-key-events": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/redundant-alt": 0,
+    "jsx-a11y/valid-aria-role": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/iframe-has-title": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/sort-comp": 0,
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "medium-rare-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "babel-node ./server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@babel/node": "^7.7.7",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "informed": "^3.0.2",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "9.1.7",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-paginate": "^6.3.2",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-node": "0.0.1-security",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "prettier": "^1.19.1"
+  }
+}
